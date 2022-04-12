@@ -11,9 +11,13 @@ body {
 }
 
 header{
-    background-color: #393361;
-    color: #fff;
+    background-color: #393361;    
     padding: .5rem 2rem;
+}
+
+header a{
+    color: #fff;
+    text-decoration: none;
 }
 
 button {   
