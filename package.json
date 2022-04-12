@@ -1,0 +1,42 @@
+{
+  "name": "news-api",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --open --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.prod.js",
+    "eslint": "eslint \"src/\"",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Egor-kl/bsuir-NewsApi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Egor-kl/bsuir-NewsApi/issues"
+  },
+  "homepage": "https://github.com/Egor-kl/bsuir-NewsApi#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.5.1",
+    "eslint": "^8.2.0",
+    "gh-pages": "^3.2.3",
+    "html-webpack-plugin": "^5.5.0",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "style-loader": "^3.3.1",
+    "terser-webpack-plugin": "^5.2.5",
+    "webpack": "^5.64.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

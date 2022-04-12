@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap" rel="stylesheet"> 
+    <title>News API</title>
+</head>
+<body>
+    <header><h1>News API</h1></header>
+    <div class="content">
+        <div class="content__data">
+            <div class="search">
+                <input type="text" class="search__input" id="search">
+                <button class="search__button" id="search-button">Search</button>
+            </div>
+        
+            <div id="wrapper" class="wrapper"></div>
+        </div>       
+
+        <div class="menu content__menu">  
+            <h3 class="menu__title">Sources</h3>
+            <div class="menu__sources" id="sources"></div>
+        </div>
+    </div>
+    
+
+    <div id="templates" class="display-none">
+        <div class="card">
+            <img class="card__image" src="" alt=""/>
+            <h2 class="card__title"></h2>
+            <p class="card__text"></p>
+            <a class="card__url" href="" target="_blank"></a>
+        </div>
+        <div class="load-more">
+            <button id="load-more" class="load-more__text">Load more</span>
+        </div>
+        <div class="source">
+            <input class="source__checkbox" type="checkbox" id="source-checkbox" name="sources">
+            <label class="source__label" for=""></label>
+        </div>
+        <div class="no-items">
+            There are no articles matching your request.
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+body {
+    background-color: #d9d3ee;
+    height: 100vh;
+}
+
+header{
+    background-color: #393361;
+    color: #fff;
+    padding: .5rem 2rem;
+}
+
+button {   
+    background-color: #393361;
+    color: #fff;
+    border: none;
+    -webkit-appearance: none;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 0 1.5rem;
+    vertical-align: middle;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.menu {
+    position:absolute;
+    top: 0;
+    right: 0;
+    max-width: 40%;
+    margin-right: 2rem;
+}
+.menu .menu__sources {
+    padding: 1rem 0;
+}
+
+.menu .menu__title {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.search {
+    margin-top: 20px;
+    display: flex;
+    height: 2rem;
+}
+
+.search__input {
+    flex: 1;
+    padding: 0 .5rem;
+}
+
+.search__button {
+    margin-left: 0.5rem;
+}
+
+.content{
+    position: relative;;
+}
+
+.content__data{    
+    margin-left: 2rem;
+    width: 60%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    padding: 1.5rem 0;
+}
+
+.display-none {
+    display: none;
+}
+
+.source {
+    margin-bottom: 9px;
+}
+
+.source__checkbox{
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
+
+.card {
+    width: 100%;
+    background-color: #fff;
+}
+
+.card__title {    
+    font-size: 1.5rem;
+    padding: 0 20px;
+    margin: 9px 0;
+}
+
+.card__text {
+    padding: 0 20px;
+    margin-bottom: 9px;
+}
+
+.card__image {
+    width: 100%;
+    margin-bottom: 9px;
+    padding: 0;
+}
+
+.card__url {
+    display: block;
+    padding: 0 20px;
+    margin-bottom: 9px;
+    color: #393361;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.load-more {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.load-more__text:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.no-items {
+    font-size: x-large;
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
